@@ -6,6 +6,21 @@
     "sslmode": "disable"
   },
   "api":{
+    "port": 8082,
+    "read_timeout": 30,
+    "write_timeout": 30,
+    "idle_timeout": 30
+  },
+  "resource_service": {
+    "host": "localhost",
+    "port": 8081
+  },
+  "booking_service": {
+    "host": "localhost",
     "port": 8080
+  },
+  "auth_service": {
+    "host": "localhost",
+    "port": 8083
   }
 }
